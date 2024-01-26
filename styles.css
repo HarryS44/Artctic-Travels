@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Roboto:wght@300&display=swap');
+
 header {
+    display: flex;
     width: 100%;
+}
+
+ul  {
+    display: flex;
+     justify-content: flex-end;
+    list-style: none;
+}
+
+li {
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
 }
