@@ -2,7 +2,9 @@
 
 header {
     display: flex;
-    width: 100%;
+    width: fit-content;
+    margin-top: 0.9rem;
+    margin-left: 0.9rem
 }
 
 ul  {
@@ -21,7 +23,12 @@ main {
     justify-content: center;
 }
 
-.conrainer-max-width {
-    margin-top: 5rem;
+.carousel-slides{
+    max-width: 1391px;
+    margin: 3rem auto;
+}
+
+.carousel-item > img {
+    max-height: 580px;
     max-width: 1391px;
 }
