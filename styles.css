@@ -2,9 +2,14 @@
 
 header {
     display: flex;
-    width: fit-content;
-    margin-top: 0.9rem;
-    margin-left: 0.9rem
+    background: url(resources/images/Arctic\ Travels\ Jumbotron\ 1.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+h1{
+    font-family: 'Oleo Script', system-ui;
 }
 
 ul  {
@@ -16,19 +21,4 @@ ul  {
 li {
     padding: 2rem;
     font-family: 'Roboto', sans-serif;
-}
-
-main {
-    display: flex;
-    justify-content: center;
-}
-
-.carousel-slides{
-    max-width: 1391px;
-    margin: 3rem auto;
-}
-
-.carousel-item > img {
-    max-height: 580px;
-    max-width: 1391px;
 }
