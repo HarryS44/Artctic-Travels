@@ -2,3 +2,7 @@ Fonts used in file:
 
 font-family: 'Oleo Script', system-ui;
 font-family: 'Roboto', sans-serif;
+
+To - DO: 
+Check if bootstrap is needed- later on
+Complete design files

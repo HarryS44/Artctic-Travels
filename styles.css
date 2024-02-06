@@ -1,27 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Roboto:wght@100;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Roboto:wght@100;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 header {
-    display: inline-flex;
-    flex-direction: column;
-    background: url(resources/images/Arctic\ Travels\ Jumbotron\ 1.png) no-repeat center center fixed;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
+  background: url(resources/images/Header-Background.png) center/cover no-repeat;
+  height: 100vh;
+  width: 100vw;
 }
 
-h1{
-    font-family: 'Oleo Script', system-ui;
-    max-width: fit-content;
+nav {
+  background-color: #00000025;
+  height: 6.256rem;
+  width: 100%;
 }
 
-ul  {
-    display: flex;
-     justify-content: flex-end;
-    list-style: none;
-    max-width: fit-content;
+.white-text {
+    color: #fff;
 }
 
-li {
-    padding: 2rem;
-    font-family: 'Roboto', sans-serif;
+h1 {  
+  position: absolute;
+  font-size: 2rem; 
+  left: 2%;
+  transform: translateY(50%);
+  display: inline;
+  font-size: 2rem;
+  font-family: 'Oleo Script', system-ui;
+}
+
+.support {
+  position: absolute;
+  transform: translateY(65%);
+  right: 2%;
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+.black-bckg{
+  height: 20rem;
+  width: 20rem;
+  background-color: #000;
 }
