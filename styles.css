@@ -1,47 +1,93 @@
+/* Font Import: Importing fonts from Google Fonts for custom typography.*/
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Roboto:wght@100;400&display=swap");
 
+/*  Resetting Default Styles: Resetting default margin and padding to ensure consistency.*/
 * {
   margin: 0;
   padding: 0;
+  color: #fff;
 }
 
+/* Header Styling: Styling for the header section, including background image and dimensions.*/
 header {
   background: url(resources/images/Header-Background.png) center/cover no-repeat;
   height: 100vh;
   width: 100vw;
 }
 
+/* Navigation Styling: Styling for the navigation bar, including background color and dimensions.*/
 nav {
   background-color: #00000025;
   height: 6.256rem;
   width: 100%;
 }
 
-.white-text {
-    color: #fff;
-}
-
-h1 {  
+/* Heading Styling: Styling for the main heading, including font size, position, and font family. */
+h1 {
   position: absolute;
-  font-size: 2rem; 
+  font-size: 2rem;
   left: 2%;
   transform: translateY(50%);
   display: inline;
   font-size: 2rem;
-  font-family: 'Oleo Script', system-ui;
+  font-family: "Oleo Script", system-ui;
 }
 
+/* Support Text Styling: Styling for support text, including position, font size, and font family.*/
 .support {
   position: absolute;
   transform: translateY(65%);
   right: 2%;
   font-size: 1rem;
   font-weight: 100;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.black-bckg{
+/*  Black Background Styling: Styling for a section with a black background, including dimensions, background color, and margin.*/
+.black-bckg {
   height: 20rem;
-  width: 20rem;
-  background-color: #000;
+  max-width: 50rem;
+  background-color: #00000081;
+  margin: 4rem auto auto 7rem;
+  font-family: "Roboto", sans-serif;
 }
+
+/* Black Background Content Styling: Styling for content inside the black background section, including text size.*/
+.blackbckg-content > h2 {
+  font-size: 3rem;
+  font-weight: 575;
+}
+
+/* Black Background Content Positioning: Positioning for content inside the black background section.*/
+.blackbckg-content {
+  transform: translateY(20%);
+  margin-left: 1rem;
+}
+
+/* Styling for paragraphs within elements with class .blackbckg-content */
+.blackbckg-content > p {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* Styles for buttons */
+button {
+  background-color: #365486;
+  width: 6.5rem;
+  border: none;
+  border-radius: 15%;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+/* Styles for button hover state */
+button:hover {
+  opacity: 0.8;
+}
+
+
