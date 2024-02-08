@@ -90,4 +90,29 @@ button:hover {
   opacity: 0.8;
 }
 
+@media only screen and (min-width: 901px) and (max-width: 1080px) {
+  .black-bckg {
+    margin: 4rem auto;
+  }
 
+  .support {
+    right: 4%;
+  }
+}
+
+@media only screen and (min-width:600px) and (max-width: 900px) {
+  .black-bckg {
+    max-width: 40rem;
+  }
+
+  .support {
+    right: 6%;
+  }
+
+  .blackbckg-content > h2 {
+    font-size: 2.5rem;
+  }
+
+  .blackbckg-content > p {
+  }
+}
