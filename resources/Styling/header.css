@@ -66,8 +66,7 @@ h1 {
 
 /* Styling for paragraphs within elements with class .blackbckg-content */
 .blackbckg-content > p {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin: 3rem auto;
 }
 
 /* Styles for buttons */
@@ -102,7 +101,7 @@ button:hover {
 
 @media only screen and (min-width:600px) and (max-width: 900px) {
   .black-bckg {
-    max-width: 40rem;
+    max-width: 35rem;
     margin-left: auto;
     margin-right: auto
   }
@@ -113,5 +112,57 @@ button:hover {
 
   .blackbckg-content > h2 {
     font-size: 2.5rem;
+  }
+}
+
+
+@media only screen and (min-width: 425px) and (max-width: 599px) {
+  .black-bckg {
+    max-width: 24rem;
+    height: 23rem;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  .support {
+    right: 6%;
+  }
+
+  .blackbckg-content > h2 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 325px) and (max-width: 424px) {
+
+  nav {
+    height: 4rem
+  }
+  .black-bckg {
+    max-width: 15rem;
+    height: 20rem;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  .support {
+    right: 6%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    top: 0.7%
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  .blackbckg-content > h2 {
+    font-size: 1.5rem;
+  }
+
+  .blackbckg-content > p {
+    font-size: 1rem;
   }
 }
