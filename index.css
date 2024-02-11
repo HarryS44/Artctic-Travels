@@ -78,10 +78,7 @@ button {
   padding: 0.5rem 1rem;
   color: #fff;
   font-size: 1rem;
-  font-weight: 500;
   text-align: center;
-  cursor: pointer;
-  transition: opacity 0.3s ease;
 }
 
 /* Styles for button hover state */
@@ -124,8 +121,19 @@ button:hover {
     margin-right: auto
   }
 
+  h1 {
+    font-size: 1.5rem;
+    top: 0.7%
+  }
+
+
+  nav {
+    height: 4rem
+  }
+
   .support {
     right: 6%;
+    font-size: 0.8rem;
   }
 
   .blackbckg-content > h2 {
@@ -138,6 +146,7 @@ button:hover {
   nav {
     height: 4rem
   }
+
   .black-bckg {
     max-width: 15rem;
     height: 20rem;
