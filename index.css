@@ -10,7 +10,7 @@
 
 /* Header Styling: Styling for the header section, including background image and dimensions.*/
 header {
-  background: url(../images/Header-Background.png) center/cover no-repeat;
+  background: url(resources/images/Header-Background.png) center/cover no-repeat;
   height: 100vh;
   width: 100vw;
 }
