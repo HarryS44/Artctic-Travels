@@ -1,0 +1,16 @@
+.locations {
+    background-color: rgb(28, 31,34);
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.oleo {
+    text-align: center;
+    font-family: "Oleo Script", system-ui;font-family: "Oleo Script", system-ui;
+    transform: translateY(50%);
+}
+
+.header-h2 {
+    font-size: 1.5rem
+}
