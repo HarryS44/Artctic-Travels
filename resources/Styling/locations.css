@@ -1,16 +1,50 @@
 .locations {
-    background-color: rgb(28, 31,34);
-    height: 100vh;
-    width: 100%;
-    
+  background-color: rgb(28, 31, 34);
+  height: 100vh;
+  width: 100%;
 }
 
 .oleo {
-    text-align: center;
-    font-family: "Oleo Script", system-ui;font-family: "Oleo Script", system-ui;
-    transform: translateY(50%);
+  text-align: center;
+  font-family: "Oleo Script", system-ui;
+  transform: translateY(50%);
 }
 
 .header-h2 {
-    font-size: 1.5rem
+  font-size: 1.5rem;
+}
+
+.location-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%
+}
+
+.image-container {
+ position: relative;
+  height: 450px;
+  width: 265.5px;
+}
+
+.image-info-container {
+  position: absolute;
+  background-color: #00000092;
+  bottom: 0;
+  height: 35%;
+  width: 100%;
+}
+
+h4 {
+  font-family: "Oleo Script", system-ui;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+
+.image-text {
+    margin: 0.5rem;
 }

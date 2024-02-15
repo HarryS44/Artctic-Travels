@@ -33,16 +33,6 @@ h1 {
   font-family: "Oleo Script", system-ui;
 }
 
-/* Support Text Styling: Styling for support text, including position, font size, and font family.*/
-.support {
-  position: absolute;
-  transform: translateY(65%);
-  right: 2%;
-  font-size: 1rem;
-  font-weight: 100;
-  font-family: "Roboto", sans-serif;
-}
-
 /*  Black Background Styling: Styling for a section with a black background, including dimensions, background color, and margin.*/
 .black-bckg {
   height: 20rem;
@@ -90,21 +80,13 @@ button:hover {
   .black-bckg {
     margin: 4rem auto;
   }
-
-  .support {
-    right: 4%;
-  }
 }
 
-@media only screen and (min-width:600px) and (max-width: 900px) {
+@media only screen and (min-width: 600px) and (max-width: 900px) {
   .black-bckg {
     max-width: 35rem;
     margin-left: auto;
-    margin-right: auto
-  }
-
-  .support {
-    right: 6%;
+    margin-right: auto;
   }
 
   .blackbckg-content > h2 {
@@ -112,28 +94,21 @@ button:hover {
   }
 }
 
-
 @media only screen and (min-width: 425px) and (max-width: 599px) {
   .black-bckg {
     max-width: 24rem;
     height: 23rem;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
   }
 
   h1 {
     font-size: 1.5rem;
-    top: 0.7%
+    top: 0.7%;
   }
-
 
   nav {
-    height: 4rem
-  }
-
-  .support {
-    right: 6%;
-    font-size: 0.8rem;
+    height: 4rem;
   }
 
   .blackbckg-content > h2 {
@@ -142,25 +117,20 @@ button:hover {
 }
 
 @media only screen and (min-width: 325px) and (max-width: 424px) {
-
   nav {
-    height: 4rem
+    height: 4rem;
   }
 
   .black-bckg {
     max-width: 15rem;
     height: 20rem;
     margin-left: auto;
-    margin-right: auto
-  }
-
-  .support {
-    right: 6%;
+    margin-right: auto;
   }
 
   h1 {
     font-size: 1.5rem;
-    top: 0.7%
+    top: 0.7%;
   }
 
   p {
