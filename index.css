@@ -1,8 +1,6 @@
 /* Font Import: Importing fonts from Google Fonts for custom typography.*/
-@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Roboto:wght@100;400&display=swap");
-
-/*  Resetting Default Styles: Resetting default margin and padding to ensure consistency.*/
-* {
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+  /*  Resetting Default Styles: Resetting default margin and padding to ensure consistency.*/ * {
   margin: 0;
   padding: 0;
   color: #fff;
@@ -39,7 +37,7 @@ h1 {
   max-width: 50rem;
   background-color: #00000081;
   margin: 4rem auto auto 7rem;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Black Background Content Styling: Styling for content inside the black background section, including text size.*/
@@ -154,11 +152,11 @@ button:hover {
 
   /* Styles for 'h2' elements within elements with class 'blackbckg-content' within this media query */
   .blackbckg-content > h2 {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
   }
 
   /* Styles for 'p' elements within elements with class 'blackbckg-content' within this media query */
   .blackbckg-content > p {
-    font-size: 1rem; 
+    font-size: 1rem;
   }
 }
