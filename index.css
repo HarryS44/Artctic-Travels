@@ -76,25 +76,32 @@ button:hover {
   opacity: 0.8;
 }
 
+/* Media query for screens with width between 901px and 1080px */
 @media only screen and (min-width: 901px) and (max-width: 1080px) {
+  /* Styles for elements with class 'black-bckg' within this media query */
   .black-bckg {
     margin: 4rem auto;
   }
 }
 
+/* Media query for screens with width between 600px and 900px */
 @media only screen and (min-width: 600px) and (max-width: 900px) {
+  /* Styles for elements with class 'black-bckg' within this media query */
   .black-bckg {
     max-width: 35rem;
     margin-left: auto;
     margin-right: auto;
   }
 
+  /* Styles for 'h2' elements within elements with class 'blackbckg-content' within this media query */
   .blackbckg-content > h2 {
     font-size: 2.5rem;
   }
 }
 
+/* Media query for screens with width between 425px and 599px */
 @media only screen and (min-width: 425px) and (max-width: 599px) {
+  /* Styles for elements with class 'black-bckg' within this media query */
   .black-bckg {
     max-width: 24rem;
     height: 23rem;
@@ -102,25 +109,31 @@ button:hover {
     margin-right: auto;
   }
 
+  /* Styles for 'h1' elements within this media query */
   h1 {
     font-size: 1.5rem;
     top: 0.7%;
   }
 
+  /* Styles for 'nav' elements within this media query */
   nav {
     height: 4rem;
   }
 
+  /* Styles for 'h2' elements within elements with class 'blackbckg-content' within this media query */
   .blackbckg-content > h2 {
     font-size: 2rem;
   }
 }
 
+/* Media query for screens with width between 325px and 424px */
 @media only screen and (min-width: 325px) and (max-width: 424px) {
+  /* Styles for 'nav' elements within this media query */
   nav {
     height: 4rem;
   }
 
+  /* Styles for elements with class 'black-bckg' within this media query */
   .black-bckg {
     max-width: 15rem;
     height: 20rem;
@@ -128,20 +141,24 @@ button:hover {
     margin-right: auto;
   }
 
+  /* Styles for 'h1' elements within this media query */
   h1 {
     font-size: 1.5rem;
     top: 0.7%;
   }
 
+  /* Styles for 'p' elements within this media query */
   p {
     font-size: 0.8rem;
   }
 
+  /* Styles for 'h2' elements within elements with class 'blackbckg-content' within this media query */
   .blackbckg-content > h2 {
-    font-size: 1.5rem;
+    font-size: 1.5rem; 
   }
 
+  /* Styles for 'p' elements within elements with class 'blackbckg-content' within this media query */
   .blackbckg-content > p {
-    font-size: 1rem;
+    font-size: 1rem; 
   }
 }
