@@ -46,6 +46,11 @@ h4 {
   font-family: "Oleo Script", system-ui;
 }
 
+h6 {
+  margin-top: 8%;
+  font-family: "Roboto", sans-serif;
+}
+
 /* Styles for 'p' elements */
 p {
   font-family: "Roboto", sans-serif;
