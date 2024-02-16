@@ -48,12 +48,12 @@ h4 {
 
 h6 {
   margin-top: 8%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Styles for 'p' elements */
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 100;
   font-size: 0.75rem;
 }
@@ -61,4 +61,39 @@ p {
 /* Styles for class 'image-text' */
 .image-text {
   margin: 0.5rem;
+}
+
+/*For JavaScript to hide*/
+.hidden {
+  display: none;
+}
+
+.info-cards{
+  width:100%;
+  max-height:100vh
+}
+
+.info-cards-black{
+  background-color: #000;
+  font-family: "Oleo Script", system-ui;
+  width: 49%;
+  height: 100vh;
+}
+
+.info-cards-black > h2 {
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.info-cards-black > p {
+  font-family: "Open Sans", sans-serif;
+  margin: 2rem auto;
+  font-size: 1.5rem;;
+  width: 75%
+}
+
+.info-cards-blue {
+  background-color: rgb(29, 29, 23);
+  height: 100vh;
+  width: 51%;
 }
