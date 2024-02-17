@@ -1,6 +1,6 @@
 $(document).ready(() => {
-    $("#location-01").on("click", () => {
-        
-        console.log("Clicked on location-01 h6 element");
+    $("#location-01 h6").click(() => {
+        $(this).removeClass("hidden");
+        $("#locations-hidden").addClass("hidden");
     });
 });
