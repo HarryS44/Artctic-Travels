@@ -76,7 +76,7 @@ p {
 
 .info-cards-black {
   position: absolute;
-  background-color: #000000ba;
+  background-color: #000000;
   font-family: "Oleo Script", system-ui;
   width: 49%;
   height: 100vh;
@@ -97,12 +97,16 @@ p {
 .info-cards-black-image {
   position: relative;
   float: right;
-  background-color: #000000ba;
+  background-color: #000000;
   height: 100vh;
   width: 51%;
 }
 
 .image-1, .image-2{
   display: inline;
+}
+
+.marg{
+  margin: 1rem;
 }
 
