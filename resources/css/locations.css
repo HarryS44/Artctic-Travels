@@ -104,12 +104,12 @@ p {
 }
 
 .slider {
-  width: 400px;
+
   overflow: hidden;
 }
 
 .slider img {
-  width: 100%;
+  
   display: none;
 }
 
