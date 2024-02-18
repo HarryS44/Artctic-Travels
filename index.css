@@ -6,6 +6,14 @@
   color: #fff;
 }
 
+.oleo-font{
+  font-family: "Oleo Script", system-ui;
+}
+
+.open-sans-font {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* Header Styling: Styling for the header section, including background image and dimensions.*/
 header {
   background: url(resources/images//Miscellaneous/Header-Background.png) center/cover no-repeat;
@@ -28,7 +36,7 @@ h1 {
   transform: translateY(50%);
   display: inline;
   font-size: 2rem;
-  font-family: "Oleo Script", system-ui;
+
 }
 
 /*  Black Background Styling: Styling for a section with a black background, including dimensions, background color, and margin.*/
@@ -37,7 +45,7 @@ h1 {
   max-width: 50rem;
   background-color: #00000081;
   margin: 4rem auto auto 7rem;
-  font-family: 'Open Sans', sans-serif;
+
 }
 
 /* Black Background Content Styling: Styling for content inside the black background section, including text size.*/

@@ -5,16 +5,11 @@
   width: 100%;
 }
 
-/* Styles for class 'oleo' */
-.oleo {
-  text-align: center;
-  font-family: "Oleo Script", system-ui;
-  transform: translateY(50%);
-}
-
 /* Styles for class 'header-h2' */
 .header-h2 {
   font-size: 1.5rem;
+  text-align: center;
+  transform: translateY(50%);
 }
 
 /* Styles for class 'location-images' */
@@ -93,26 +88,4 @@ p {
   margin: 2rem auto;
   font-size: 1.5rem;
   width: 75%;
-}
-
-.info-cards-black-image {
-  position: relative;
-  float: right;
-  background-color: #000000;
-  height: 100vh;
-  width: 51%;
-}
-
-.slider {
-
-  overflow: hidden;
-}
-
-.slider img {
-  
-  display: none;
-}
-
-.slider img:first-child {
-  display: block;
 }
