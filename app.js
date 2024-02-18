@@ -5,6 +5,6 @@ $(document).ready(() => {
   $(hideOnClick).on("click", () => {
     $(showOnClick).removeClass("hidden");
     $(hideOnClick).addClass("hidden");
-    console.log("Clicked on location-01 h6 element");
+    console.log("Clicked on location-01 h6 element.");
   });
 });
