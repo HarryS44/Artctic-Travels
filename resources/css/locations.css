@@ -22,8 +22,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: auto;
   height: 80%;
-  overflow: scroll;
+  max-width: 95%;
 }
 
 /* Styles for class 'image-container' */
@@ -102,11 +103,16 @@ p {
   width: 51%;
 }
 
-.image-1, .image-2{
-  display: inline;
+.slider {
+  width: 400px;
+  overflow: hidden;
 }
 
-.marg{
-  margin: 1rem;
+.slider img {
+  width: 100%;
+  display: none;
 }
 
+.slider img:first-child {
+  display: block;
+}
