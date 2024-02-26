@@ -51,7 +51,7 @@
   }
   
   /* Media query for screens with width between 325px and 424px */
-  @media only screen and (min-width: 325px) and (max-width: 424px) {
+  @media only screen and (min-width: 300px) and (max-width: 424px) {
     /* Styles for 'nav' elements within this media query */
     nav {
       height: 4rem;
@@ -89,6 +89,24 @@
   
   /*Responsive rules for the header page called index.html(location sections) and location.css*/
 
-  @media only screen and (max-width: 1189px) {
+  @media only screen and (min-width: 600px) and (max-width: 1189px) {
+    .location-images {
+      transform: translateY(10%);
+    }
 
+    .locations {
+      height: fit-content;
+
+    }
+  }
+
+  @media only screen and (min-width: 300px) and (max-width: 599px) {
+    .location-images {
+      transform: translateY(5%);
+    }
+
+    .locations {
+      height: fit-content;
+      overflow: scroll;
+    }
   }
