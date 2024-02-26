@@ -1,22 +1,24 @@
 /* Font Import: Importing fonts from Google Fonts for custom typography.*/
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-  /*  Resetting Default Styles: Resetting default margin and padding to ensure consistency.*/ * {
+/*  Resetting Default Styles: Resetting default margin and padding to ensure consistency.*/
+* {
   margin: 0;
   padding: 0;
   color: #fff;
 }
 
-.oleo-font{
+.oleo-font {
   font-family: "Oleo Script", system-ui;
 }
 
 .open-sans-font {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Header Styling: Styling for the header section, including background image and dimensions.*/
 header {
-  background: url(resources/images//Miscellaneous/Header-Background.png) center/cover no-repeat;
+  background: url(resources/images//Miscellaneous/Header-Background.png)
+    center/cover no-repeat;
   height: 100vh;
   width: 100%;
 }
@@ -36,7 +38,6 @@ h1 {
   transform: translateY(50%);
   display: inline;
   font-size: 2rem;
-
 }
 
 /*  Black Background Styling: Styling for a section with a black background, including dimensions, background color, and margin.*/
@@ -45,7 +46,6 @@ h1 {
   max-width: 50rem;
   background-color: #00000081;
   margin: 4rem auto auto 7rem;
-
 }
 
 /* Black Background Content Styling: Styling for content inside the black background section, including text size.*/

@@ -1,4 +1,4 @@
-const showOnClick = "#location-show-01";
+/*const showOnClick = "#location-show-01";
 const hideOnClick = "#locations-hide";
 
 $(document).ready(() => {
@@ -29,4 +29,4 @@ $(document).ready(() => {
 
 
 
-//Review the abve code
+//Review the abve code*/
