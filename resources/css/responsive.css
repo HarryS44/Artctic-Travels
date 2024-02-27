@@ -90,13 +90,13 @@
   /*Responsive rules for the header page called index.html(location sections) and location.css*/
 
   @media only screen and (min-width: 600px) and (max-width: 1189px) {
+    
     .location-images {
       transform: translateY(10%);
     }
 
     .locations {
-      height: fit-content;
-
+      height: 105vh;
     }
   }
 
@@ -106,7 +106,6 @@
     }
 
     .locations {
-      height: fit-content;
       overflow: scroll;
     }
   }

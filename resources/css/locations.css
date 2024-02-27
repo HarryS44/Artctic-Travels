@@ -23,7 +23,7 @@
   align-items: center;
   flex-wrap: wrap;
   transform: translateY(25%);
-  max-width: 100%;
+  width: 100%;
 }
 
 /* Styles for class 'image-container' */
